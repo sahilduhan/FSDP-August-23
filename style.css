@@ -1,0 +1,15 @@
+:root {
+  --primaryBlue: #1D267D;
+  --lightBlue: #78C1F3;
+  --lightGreen: #9BE8D8;
+  --cream: #E2F6CA;
+  --lightCream: #F8FDCF;
+}
+
+/* nav bar css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}

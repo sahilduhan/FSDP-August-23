@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.images{
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer{
+    padding: 10px;
+}
+
+.imageContainer img {
+    height: 100%;
+    width: 500px;
+}
+
+.imageDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes sahilDuhan {
+    
+    from{
+        transform: scale(100%);
+    }
+    to {
+        transform: scale(102%);
+    }
+}
+
+.image:hover{
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+.imageContainer img{
+    filter: grayscale(100%);
+}
+
+.imageContainer img:hover{
+    filter: grayscale(0%);
+    animation-name:sahilDuhan;
+    animation-duration: .5s;
+}
+
+@media screen and (max-width: 1149px) {
+    .image {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+    .image {
+        width: 300px;
+    }
+    .imageContainer img{
+        width: 300px;
+    }
+}
