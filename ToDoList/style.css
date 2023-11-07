@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* body {
+
+} */
+
+header{
+    background-color: lightgray;
+    color:black;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.text{
+    /* width: 25s%; */
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: x-large;
+}
+
+.taskForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputTask{
+    /* width: 25%; */
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: x-large;
+}
+
+#newTaskSubmit{
+    width: 7%;
+    padding: 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+main {
+    background-color: honeydew;
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+.taskList h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.tasks {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+}
+
+.task {
+    width: 340px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: plum;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskText {
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.editButton{
+    padding: 15px;
+    border: none;
+    background-color: cornflowerblue;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.saveButton{
+    padding: 15px;
+    border: none;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.deleteButton{
+    padding: 15px;
+    border: none;
+    background-color: crimson;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+

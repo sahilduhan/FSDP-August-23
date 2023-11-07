@@ -5,14 +5,14 @@ int main(){
 
     // linear search
 
-    int n;
-    cin>>n;
-    vector<int>Arr;
-    for(int i=0;i<n;i++){
-        cin>>Arr[i];
-    }
-    int target;
-    cin>>target;
+    // int n;
+    // cin>>n;
+    // vector<int>Arr;
+    // for(int i=0;i<n;i++){
+    //     cin>>Arr[i];
+    // }
+    // int target;
+    // cin>>target;
 
 
     // // iterate over the array
@@ -28,19 +28,19 @@ int main(){
 
     // binary search
 
-    int start = 0;
-    int end = n-1;
+    // int start = 0;
+    // int end = n-1;
 
-    while(start <= end){
-        int mid = start + end / 2;
-        if(Arr[mid] == target) cout<<"mil gya";
-        if(target > Arr[mid]){
-            start = mid + 1;
-        }
-        else {
-            end = mid -1;
-        }
-    }
+    // while(start <= end){
+    //     int mid = start + end / 2;
+    //     if(Arr[mid] == target) cout<<"mil gya";
+    //     if(target > Arr[mid]){
+    //         start = mid + 1;
+    //     }
+    //     else {
+    //         end = mid -1;
+    //     }
+    // }
 
 
     // meger sorted arrays
@@ -101,13 +101,13 @@ int main(){
     //     cout<<it.second<<" ";
     //     cout<<endl;
     // }
-    vector<int>arr = {12,3312,241,13};
-    int sum = 24
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[i] + arr[j] == sum) cout<<"mil gya"<<endl;
-        }
-    }
+    // vector<int>arr = {12,3312,241,13};
+    // int sum = 24
+    // for(int i=0;i<n;i++){
+    //     for(int j=i+1;j<n;j++){
+    //         if(arr[i] + arr[j] == sum) cout<<"mil gya"<<endl;
+    //     }
+    // }
 
     return 0;
 }
